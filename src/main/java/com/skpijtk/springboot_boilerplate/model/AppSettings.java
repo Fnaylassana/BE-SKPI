@@ -8,6 +8,9 @@ import java.time.LocalTime;
 
 @Entity
 @Table(name = "appsettings")
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class AppSettings {
 
     @Id
