@@ -78,8 +78,6 @@ Sebelum memulai, pastikan Anda telah menginstal perangkat lunak berikut:
 
 ## Modifikasi dan Pengembangan Lanjutan
 
-Mahasiswa didorong untuk:
-
 1.  **Menambahkan Entitas (Model) Baru**: Definisikan entitas JPA baru di package `entity`.
 2.  **Membuat Repository**: Buat interface repository yang extends `JpaRepository` untuk setiap entitas di package `repository`.
 3.  **Mengembangkan Service**: Implementasikan logika bisnis di package `service`.
@@ -89,19 +87,3 @@ Mahasiswa didorong untuk:
 7.  **Implementasi Keamanan**: Pelajari dan implementasikan Spring Security untuk otentikasi dan otorisasi.
 8.  **Menulis Tes**: Buat unit test untuk service dan integration test untuk controller.
 9.  **Logging**: Manfaatkan SLF4J (atau Logback/Log4j2) untuk logging yang lebih baik.
-
-## Tips untuk Mahasiswa
-
-*   Pahami alur request dari Controller -> Service -> Repository -> Database.
-*   Gunakan debugger IDE Anda untuk melacak alur eksekusi dan memahami variabel.
-*   Baca dokumentasi resmi Spring Boot dan Spring Data JPA.
-*   Jangan takut untuk bereksperimen dan membuat kesalahan. Itu bagian dari proses belajar!
-*   Bertanyalah jika ada kesulitan.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [LISENSI_ANDA, mis. MIT License]. Lihat file `LICENSE` untuk detailnya. (Jika tidak ada file LICENSE, Anda bisa menghapus bagian ini atau memilih lisensi standar seperti MIT).
-
----
-
-Semoga berhasil dengan pelatihan Anda!
